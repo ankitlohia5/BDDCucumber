@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-07T07:00:05.612Z",
+        "line": 11,
+        "name": "To Verify the fucntionality of user details",
+        "description": "",
+        "id": "title-of-your-feature;to-verify-the-fucntionality-of-user-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2466015900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch an application",
+            "match": {
+              "location": "stepdefinationtest.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5636750600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "stepdefinationtest.navigateToHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342450000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Provide user details TestUser1, testuser1@gmail.com, password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestUser1",
+                  "offset": 21
+                },
+                {
+                  "val": "testuser1@gmail.com",
+                  "offset": 32
+                },
+                {
+                  "val": "password",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinationtest.provideUserDetails(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-07T07:00:14.090Z",
+        "line": 12,
+        "name": "To Verify the fucntionality of user details",
+        "description": "",
+        "id": "title-of-your-feature;to-verify-the-fucntionality-of-user-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1082785000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch an application",
+            "match": {
+              "location": "stepdefinationtest.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6057262500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "stepdefinationtest.navigateToHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 442757700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Provide user details TestUser2, testuser2@gmail.com, password2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestUser2",
+                  "offset": 21
+                },
+                {
+                  "val": "testuser2@gmail.com",
+                  "offset": 32
+                },
+                {
+                  "val": "password2",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinationtest.provideUserDetails(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Test.feature",
+    "tags": []
+  }
+]
